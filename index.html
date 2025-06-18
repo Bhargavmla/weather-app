@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <div class="container">
+        <h1>Live Weather DashBoard</h1>
+        <input type="text" id="cityname" placeholder="Enter the City name">
+        <br>
+        <br>
+        <button id="submit">Get Weather</button>
+        <br>
+        <br>
+        <button id = "toggle">Switch to °F</button>
+        <br>
+        <p id="error" style="color:red;"></p>
+        <br>
+    
+        <section id = "weather_result">
+         <h2 id="Cityoutput"> City  Name </h2>
+         <p  id="time"> ----Local Time ----</p>
+         <img id ="icon"  alt="Weather Icon" style="display: none;">
+         <p id="temperature">Temperature:--°C </p>
+         <p id="feelsLike" >Feels Like:--°C</p>
+         <p id="humidity">Humidity:--%</p>
+         <p id="windSpeed">WindSpeed:--m/s</p>
+        </section>
+        </div>
+    
+</body>    
+</html>
